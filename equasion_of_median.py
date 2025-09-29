@@ -1,4 +1,3 @@
-import math
 def readfile():
     # sets all the coordinate points in the file, can be initiated instead of 1 to be n number of times depending on how many sets of coordinates you wish to put in the text file
     x1 = [None] * 1
