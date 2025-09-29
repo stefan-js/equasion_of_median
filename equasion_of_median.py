@@ -39,7 +39,7 @@ def find_gradient(y2, y1, x2, x1):
     for i in range(len(x1)):
         gradient = (y2[i] - y1[i]) / (x2[i] - x1[i])
 
-    print(int(gradient))
+    print("The gradient is:", int(gradient))
 
     # perpendicular gradient can be used if we are calculating the perpendicular bisector
     perpendicular_gradient = -1/gradient
